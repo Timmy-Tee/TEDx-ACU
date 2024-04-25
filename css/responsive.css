@@ -1,0 +1,467 @@
+
+@media (min-aspect-ratio: 16/9){
+    
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    
+    video{
+        width: auto;
+        height: 100%;
+        /* position: absolute; */
+    }
+}
+
+
+@media(max-width: 1024px){
+    header.sticky #logo_black{
+        left: 20%;
+    }
+    
+}
+@media(max-width: 1100px){
+    .confused_inner .button{
+        /* border: 1px solid; */
+        width: 90%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .confused_inner .button a{
+        margin: 5px;
+    }
+
+    .blog_card{
+        flex-direction: column;
+        /* width: %; */
+    }
+    .blog_img img{
+        width: 60%;
+    }
+    .blog_img{
+        width: 100%;
+    }
+    .blog_img:nth-child(2){
+            width: 100%;
+    }
+    
+
+    .speaker_details_holder{
+        width: 90%;
+    }
+
+
+    .ticket_text_holder img{
+        width: 850px;
+        /* border: 1px solid white; */
+    }
+
+
+    .speaker_details{
+        grid-template-columns: repeat(2,1fr);
+      }
+      .speaker_details:nth-child(3){
+        grid-template-columns: repeat(2,1fr);
+    }
+    .team__general_avatar_holder{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .avatar_text_holder{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+   
+}
+
+
+@media(max-width: 970px){
+    .ticket_text_holder img{
+        width: 750px;
+    }
+
+    /* .banner{
+        min-height: 35vh;
+    }
+.banner::before{
+        height: 35vh;
+    } */
+    
+   
+    .banner{
+        min-height: 55vh;
+    }
+
+    .banner::before{
+        height: 55vh;
+    }
+    
+    #video{
+        min-width: 100%;
+        /* min-height: 100%; */
+        width: 100%;
+    }
+
+    .popup_ticket{
+        /* width: 0%; */
+    }
+
+    .general_inner_ticket{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .general_inner_ticket:nth-child(2){
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .inner_pop_container{
+        width: 100%;
+    }
+
+    .inner_ticket_holder{
+        padding: 20px;
+        margin: 4px;
+
+    }
+    .general_inner_ticket{
+        padding: 10px;
+        width: 90%;
+    }
+
+    header.sticky #logo_black{
+        left: 20%;
+    }
+
+}
+
+
+@media(max-width: 850px){
+    
+    /* About Section */
+    .about_us{
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+    }
+    .about_image_section{
+        display: none;
+    }
+    .confused{
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+    }
+    .confused_image_section{
+        display: none;
+    }
+    .confused_text_section{
+        height: auto;
+    }
+
+    .ticket_text_holder img{
+        width: 650px;
+    }
+
+
+    .banner{
+        min-height: 35vh;
+    }
+
+    .banner::before{
+        height: 35vh;
+    }
+
+    header.sticky #logo_black{
+        left: 40%;
+    }
+ 
+    /* About Section */
+
+    .countdown_section{
+        padding: 10px;
+    }
+
+    .countdown_section .count-down .timer{
+        width: 30%;
+        padding: 20px 20px;
+        margin: 10px;
+    }
+
+    .countdown_section .count-down{
+        flex-direction: column;
+    }
+    .count-down .clone{
+        display: none;
+    }
+
+
+  
+   
+}
+
+@media(max-width: 770px){
+    header.sticky #logo_black{
+        left: 45%;
+    }
+    
+}
+
+/* 720 Px */
+@media(max-width: 720px){
+
+    #bars{
+        font-size: 30px;
+        display: block;
+        position: relative;
+        cursor: pointer;
+        z-index: -2;
+        color: #fff;
+    }
+    header.sticky #bars{
+        color: #000;
+    }
+    
+    .close{
+        width: 100%;
+        position: absolute;
+        top: 0%;
+    }
+    #close{
+        color: white;
+        cursor: pointer;
+        font-size: 60px;
+        float: right;
+        right: 5%;
+        transform: rotate(135deg);
+        position: relative;
+        display: block;
+    }
+    li #active{
+        background: #fff;
+        color: #d62828;
+    }
+    #active_2{
+        color: #d62828;
+    }
+    .nav{
+        position: fixed;
+        right: 0%;
+        top: 0%;
+        place-content: center;
+        align-items: center;
+        display: flex;
+        /* border: 1px solid white; */
+        flex-direction: column;
+        background: #d62828;
+        width: 100%;
+        height: 100vh;
+        transition: 1s ease-in-out;
+        animation: slide 0.8s 1;
+        z-index: 4;
+    }
+    @keyframes slide{
+        from{
+            right: -20%;
+        }
+        to{
+            right: 0%;
+        }
+    }
+    .main_nav{
+        position: fixed;
+        right: 0%;
+        top: 0%;
+        /* background: #d62828; */
+        place-content: center;
+        align-items: center;
+        display: none;
+        width: 100%;
+        height: 100vh;
+    }
+    header ul li{
+        display: grid;
+        width: 100%;
+        text-align: center;
+    }
+    header ul li a{
+        padding: 20px;
+    }
+    header.sticky li a{
+        color: #fff;
+    }
+    header ul li a:hover{
+        background: #fff;
+        color: #d62828;
+    }
+
+    .speaker_header .display-1{
+        font-size: 4.5rem;
+        padding: 20px;
+    }
+    .about_us_inner_text_holder p{
+        font-size: 4rem;
+  }
+  .team_banner .about_us_inner_text_holder p{
+    font-size: 4rem;
+}
+
+  
+    .speaker_header #position-absolute{
+        font-size: 25px;
+    }
+    .speaker_details{
+        grid-template-columns: repeat(1,1fr);
+      }
+      .speaker_details:nth-child(3){
+        grid-template-columns: repeat(1,1fr);
+    }
+      .team__general_avatar_holder{
+        grid-template-columns: repeat(1,1fr);
+
+      }
+
+      .ticket_text_holder img{
+        width: 550px;
+    }
+
+
+
+    .about_ted,.about_ted_2{
+        padding: 10px;
+    }
+    .about_ted #about_ted-x{
+        font-size: 25px;
+    }
+    .about_ted_2 #about_ted-x{
+        font-size: 25px;
+    }
+
+
+    .banner{
+        min-height: 45vh;
+    }
+
+    .banner::before{
+        height: 45vh;
+    }
+
+    header img{
+        width: 210px;
+    }
+
+    .about_us_general_holder{
+        padding: 20px;
+    }
+    
+    .about_text_section .title{
+        flex-direction: column;
+        padding: 0px;
+    }
+    /* .about_text_section .title img{
+        width: 200px;
+        border: 1px solid orange;
+        padding: 14px;
+    } */
+
+    .blog_card{
+        /* flex-direction: column; */
+        width: 90%;
+    }
+    .blog_img img{
+        width: 100%;
+    }
+    .about_text_section{
+        padding: 7px;
+    }
+    .countdown_title #thanks{
+        width: 230px;
+    }
+
+    .title b{
+        font-size: 30px;
+    }
+    
+
+    .blog_under_construction_text_holder b{
+        font-size: 25px;
+    }
+    .blog_under_construction img{
+        width: 250px;
+    }
+    header.sticky #logo_black{
+        left: 40%;
+    }
+    
+}
+/* 720 px */
+
+
+
+
+/* 650 px */
+@media (max-width: 650px){
+  
+    .ticket_text_holder img{
+        width: 350px;
+    }
+
+    .speaker_header .display-1{
+        font-size: 3.5rem;
+        padding: 20px;
+    }
+
+    .speakers_full_details{
+        padding: 5px;
+    }
+    header.sticky #logo_black{
+        left: 21%;
+    }
+    
+    .banner{
+        min-height: 40vh;
+    }
+.banner::before{
+        height: 40vh;
+    }
+    
+}
+/*  */
+
+
+/* 450 px */
+@media(max-width: 450px){
+    
+    .banner{
+        min-height: 25vh;
+    }
+    .about_us_inner_text_holder p{
+        font-size: 3rem;
+  }
+    .banner::before{
+        height: 25vh;
+    }
+  
+    .ticket_text_holder img{
+        width: 200px;
+    }
+    .team_banner .about_us_inner_text_holder p{
+        font-size: 3rem;
+  }
+  header.sticky #logo_black{
+    left: 35%;
+}
+
+.inner_pop_container{
+    width: 100%;
+}
+  
+}
+
+
+@media(max-width: 360px){
+    header.sticky #logo_black{
+      left: 38%;
+  }
+  }
+  

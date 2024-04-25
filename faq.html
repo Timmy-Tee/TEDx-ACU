@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ &#8211; TEDx ACU</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/v4-shims.min.css">
+    <link rel="icon" type="image/png" sizes="72x72"  href="images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Secular+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font -->
+    <link rel="stylesheet" href="css/font_family_rubik.css">
+</head>
+<body>
+    
+
+
+  <!-- Preloader -->
+   <div class="preloader">
+    <div class="preloader__content">
+      <div class="preloader__first"></div>
+      <div class="preloader__second"></div>
+      <div class="preloader__third"></div>
+    </div>
+</div>
+<!-- Preloader -->
+
+
+
+     <!-- Banner Div -->
+     <header>
+        <!-- Logo -->
+        <a href="index.html"><img id="logo_white" src="images/logo-white.png" alt=""></a>
+        <a href="index.html"><img id="logo_black" src="images/logo-black.png" alt=""></a>
+        <!-- End of Logo -->
+
+        <!-- Links -->
+        <ul>
+
+        <div class="main_nav" id="nav">
+                <div class="nav">
+
+            <!-- Close Button -->
+            <div class="close">
+            <h3 id="close" onclick="closenav()">+<h3>
+            </div>
+            <!-- Close Button -->
+
+            <!-- Navs -->
+                <li><a href="index.html">Home</a>
+                <li><a href="about.html">About Us</a>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="faq.html" id="active">FAQ</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+
+            <!-- Navs -->
+                
+
+            </div>
+        </div>
+        </ul>
+
+        <!-- Bars -->
+        <i id="bars" onclick="shownav()" class="fa fa-bars"></i>
+        <!-- Bars -->
+
+    </header>
+<!-- End of header div -->
+
+
+
+<!-- Question Section -->
+
+<section class="questions">
+    <br><br>
+    <br><br>
+
+    <h1>Frequently Asked Questions</h1>
+
+    <br><br>
+    <br><br>
+
+
+    <div class="details">
+        <span id="details">
+            <details>
+                <summary>What is TEDxAjayiCrowtherU?</summary>
+                <p>Tedx TEDxAjayiCrowtherU is a conference hosted under the TED license to share mindful ideas in the form of talks that are 18mins or less. The videos are uploaded to the TED talks youtube channel where anyone can access them.</p>
+            </details>
+        </span>
+
+        <span id="details">
+            <details>
+                <summary>What would be the focus of the conference?</summary>
+                <p>TEDxAjayiCrowtherU focuses on ideas from some fo the most insightful of leaders and professionals. From real issues like investment, personal & business growth to talks in entertainment and leadership.</p>
+            </details>
+        </span>
+
+        <span id="details">
+            <details>
+                <summary>What do I stand to benefit from TEDxAjayiCrowtherU?</summary>
+                <p>1. Networking <br> 
+                   2. Opportunities <br>
+                   3. An amazing Educative Experience.</p>
+            </details>
+        </span>
+
+        <span id="details">
+            <details>
+                <summary>How can I purchase Tickets?</summary>
+                <p>Details for the sale of tickets for both on-site and and online audiences would be communicated soon.</p>
+            </details>
+        </span>
+
+        <span id="details">
+            <details>
+                <summary>Is this the first edition of TEDxAjayiCrowtherU?</summary>
+                <p>NO. <br> <br>
+                   This is the Second Edition, The first edition of TEDxAjayiCrowtherU was held in 2019.</p>
+            </details>
+        </span>
+
+        <span id="details">
+            <details>
+                <summary>Are there any age restrictions for the event?</summary>
+                <p>NO. there are no restrictions. <br><br>
+                    Students of all levels, Saff and all members of the Ajayi Crowther University Community are welcome to attend.</p>
+            </details>
+        </span>
+
+        <span id="details">
+            <details>
+                <summary>Would there be food at the conference?</summary>
+                <p>YES 😋... <br><br>
+                    Beverages and refreshments would be served at the conference.</p>
+            </details>
+        </span>
+    </div>
+ </section>
+
+
+<!-- Question Section -->
+
+
+
+
+<!-- Footer -->
+<div class="footer">
+<p id="footer-text"> <span id="active_2">“</span>This independent <span id="active_2">TEDx </span> event is operated under license from <span id="active_2">TED</span>.<span id="active_2">”</span> </p>
+    <br>
+    <br>
+    <p id="copywrite">All Rights Reserved. © 2023 TEDx Ajayi Crowther University.</p>
+</div>
+<!-- Footer -->
+
+
+<!-- JS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+
+<script> 
+    window.addEventListener("scroll",function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 40);
+    })
+</script>
+
+
+<!-- JS -->
+</body>
+</html>

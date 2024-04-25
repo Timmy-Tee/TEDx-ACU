@@ -1,0 +1,116 @@
+<!-- Preloader -->
+   <div class="preloader">
+    <div class="preloader__content">
+      <div class="preloader__first"></div>
+      <div class="preloader__second"></div>
+      <div class="preloader__third"></div>
+    </div>
+</div>
+<!-- Preloader -->
+
+
+
+     <!-- Banner Div -->
+     <header>
+        <!-- Logo -->
+        <a href="index.html"><img src="images/logo-white.png" alt=""></a>
+        <!-- End of Logo -->
+
+        <!-- Links -->
+        <ul>
+
+        <div class="main_nav" id="nav">
+                <div class="nav">
+
+            <!-- Close Button -->
+            <div class="close">
+            <h3 id="close" onclick="closenav()">+<h3>
+            </div>
+            <!-- Close Button -->
+
+            <!-- Navs -->
+                <li><a href="index.php">Home</a>
+                <li><a href="about.php">About Us</a>
+                <li><a href="team.php">Our Team</a></li>
+                <li><a href="blog.php" id="active">Blog</a></li>
+                <li><a href="faq.php">FAQ</a></li>
+            <!-- Navs -->
+                
+
+            </div>
+        </div>
+        </ul>
+
+        <!-- Bars -->
+        <i id="bars" onclick="shownav()" class="fa fa-bars"></i>
+        <!-- Bars -->
+
+    </header>
+<!-- End of header div -->
+
+
+
+
+
+
+<div class="blog">
+
+
+
+    <!-- content 1 -->
+    <div class="blog_card">
+        <div class="blog_img">
+            <img src="Images/blog/people-6027028_1920.jpg" alt="">
+        </div>
+        <div class="blog_img">
+            <div class="blog_text_header">
+                <b id="header_text">Your Life is Where Your Mind Keeps It</b>
+            </div>
+            <div class="blog_paragraph">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti nisi quidem dicta enim hic. Esse sed expedita corporis tempora excepturi eaque in quae necessitatibus. Nostrum magni dolor accusamus nihil est hic minima fuga et autem eligendi, consequatur minus ipsam, eveniet nesciunt adipisci debitis placeat magnam vero eius, nemo beatae!... </p>
+            </div>
+            
+            <div class="link">
+                <a href="">Read More 🙂</a>
+            </div>
+        </div>
+    </div>
+    <!-- content 1 -->
+
+
+<!-- content 1 -->
+<div class="blog_card">
+    <div class="blog_img">
+        <img src="Images/auditorium.jpg" alt="">
+    </div>
+    <div class="blog_img">
+        <div class="blog_text_header">
+            <b id="header_text">Content Title</b>
+        </div>
+        <div class="blog_paragraph">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti nisi quidem dicta enim hic. Esse sed expedita corporis tempora excepturi eaque in quae necessitatibus. Nostrum magni dolor accusamus nihil est hic minima fuga et autem eligendi, consequatur minus ipsam, eveniet nesciunt adipisci debitis placeat magnam vero eius, nemo beatae!... </p>
+        </div>
+        
+        <div class="link">
+            <a href="">Read More 🙂</a>
+        </div>
+    </div>
+</div>
+<!-- content 1 -->
+
+
+</div>
+
+
+
+
+
+
+<!-- Footer -->
+<div class="footer_2">
+    <p id="footer-text"> <span id="active_2">“</span>This independent TEDx event is operated under license from TED<span id="active_2">”</span> </p>
+    <br>
+    <br>
+    <p id="copywrite">All Rights Reserved. © 2023 TEDx Ajayi Crowther University.</p>
+</div>
+<!-- Footer -->
